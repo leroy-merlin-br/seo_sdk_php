@@ -27,6 +27,14 @@ namespace BazaarvoiceSeo;
  */
 class BV {
 
+    public array $config;
+    public Reviews $reviews;
+    public Questions $questions;
+    public Stories $stories;
+    public Spotlights $spotlights;
+    public SellerRatings $sellerratings;
+    public SellerRatings|Reviews|Questions|Stories|Spotlights $SEO;
+
     /**
      * BV Class Constructor
      *
