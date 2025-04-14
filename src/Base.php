@@ -10,7 +10,12 @@ namespace BazaarvoiceSeo;
  *
  */
 class Base {
-    private $msg = '';
+    private string $msg = '';
+    public array $config;
+    public array $bv_config;
+    public string $seo_url;
+    public string|float $start_time;
+    public float $response_time;
 
     public function __construct($params = array()) {
 
